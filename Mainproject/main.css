@@ -33,22 +33,25 @@ nav ul li{
     margin-right: 30px;
 }
 
-/* .nav span{
-    color: white;
-    padding-top: 10px;
- padding-bottom: 10px;
-
-} */
 
 .nav input {
     text-align: center;
     margin-left: 100px;
     margin-right: 230px;
  padding-top: 10px;
- padding-bottom: 10px;
+ padding-bottom: 12px;
  padding-left: 150px;
  padding-right: 150px;
  border-radius: 30px;
+ color: white;
+}
+
+
+.login{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    font-size: 35px;
 }
 
 nav ul li a{ 
@@ -56,7 +59,6 @@ nav ul li a{
     color: white;
     transition: transform 0.3s ease;
     font-size: 30px;
-
 }
 
 
@@ -66,3 +68,38 @@ nav ul li a{
     border: 1.5px solid rgba(255, 255, 255, 0.18);
 }
 
+.section2{
+    color: white;
+    height: 100%;
+    margin: 1px;
+    font-size: larger;
+    z-index: 1;
+    justify-self: space-around;
+}
+
+.section2 h1{
+    margin: 25px;
+}
+
+.artist{
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.artists{
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.artists img{
+    width: 380px;
+    height: 380px;
+      justify-content: center;
+    text-align: center;
+    justify-content: center;
+    float: left;
+}
