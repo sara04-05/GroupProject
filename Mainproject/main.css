@@ -79,27 +79,33 @@ nav ul li a{
 
 .section2 h1{
     margin: 25px;
+    text-align: center;
+}
+
+.artists h2{
+    text-align: center;
+    margin-top: 10px;
 }
 
 .artist{
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.artists img:hover{
+    transform: scale(1.1); 
+    border-radius: 50%; 
 }
 
 .artists{
-    width: 300px;
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-    z-index: 1;
+margin-top: 30px;
+margin-left: 80px;
+margin-bottom: 80px;
+margin-left:170px;
 }
 
-.artists img{
-    width: 380px;
-    height: 380px;
-      justify-content: center;
-    text-align: center;
-    justify-content: center;
-    float: left;
+.artist img{
+ height: 400px ;
+ width: 400px;
+ transition: 0.3s ease;
 }
