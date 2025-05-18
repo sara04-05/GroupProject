@@ -182,3 +182,8 @@ body {
 .controls button:nth-child(2):is(:hover, :focus-visible) {
   transform: scale(1.25);
 }
+
+a{
+  color: white;
+  font-size: 12px;
+}
