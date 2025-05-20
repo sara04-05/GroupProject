@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log in | Melodix</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <section class="section2">
-    <div class="login">
-        <div class="intro">
-        <img src="logooo.JPG" alt="">
-        <p class="log">Log in to Melodix</p>
-        <p class="detail"> Please enter your details</p><br><br>
+        <div class="SignUp">
+            <div class="intro">
+                <img src="logooo.JPG" alt="Melodix Logo" class="logo">
+                <p class="Sign">Log in to Melodix</p>
+                <p class="detail">Please enter your details</p>
 
-         <form action="" class="forma">
-                <label for="email" >Email</label><br>
-                <input type="email" placeholder="Email or username"><br><br>
+                <form action="" class="forma">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="your@email.com" required>
+                </form><br>
 
-                <label for="password">Password</label><br>
-                <input type="password"  placeholder="Password"><br><br>
+                <form action="" class="forma">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="yourpassword" required>
 
-                <button>Continue</button>
-            </form>
+                    <button type="submit">Continue</button>
+                </form>
+            </div><br>
+
+            <p>Don't have an account?  <a href="signup.html">Sign up to Melodix</a></p>
         </div>
-
-    </div>
-</section>
+    </section>
 </body>
 </html>
