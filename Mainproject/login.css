@@ -54,10 +54,15 @@ body{
 }
 
 .detail{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .forma{
     background-color: black;
 }
 
+label{
+    background-color: black;
+    font-size: 18px;
+ justify-content: LEFT;
+}
