@@ -110,18 +110,25 @@ margin-left:170px;
  transition: 0.3s ease;
 }
 
+hr{
+    opacity: 0.1;
+}
+
 
 .footer{
    padding: auto;
+
 }
 
 .footerContainer{
     width: 100%;
     padding: 70px 30px 20px;
+    
 }
 .socialIcons{
     display: flex;
     justify-content: center;
+  
 }
 
 .socialIcons a{
