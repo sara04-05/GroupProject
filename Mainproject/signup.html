@@ -14,10 +14,11 @@
                 <p class="Sign">Sign Up to Melodix</p>
                 <p class="detail">Please enter your email address to continue</p>
 
-                <form  class="forma">
+                <form  class="forma" onsubmit="return validation()">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" placeholder="your@email.com" required>
-
+                    <span id="email_error">Please enter a valid email</span>
+                    
                     <button type="submit">Continue</button>
                 </form>
             </div>
