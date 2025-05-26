@@ -1,16 +1,16 @@
 function validation() {
-    var email = document.getElementById('email') ? document.getElementById('email').value : '';
-    var emailError = document.getElementById('email_error');
-    var valid_email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var email = document.getElementById('email').value;
+    var email_error = document.getElementById('email_error');
+    var valid_email_regex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
 
- if(!(email.match(valid_name_regex)) || !(age.match(valid_age_regex)) || (city=="")){
-
-        if(!(emai.match(valid_email_regex))){
-            document.getElementById("email_error").style.visibility="visible";
+    if(!(email.match(valid_email_regex))){
+    if (!valid_email_regex.test(email)) {
+      document.getElementById("email_error").style.visibility="visible";
             document.getElementById("email").style.borderColor="red";
-        }else{
-            document.getElementById("email").style.visibility="hidden";
-            document.getElementById("email").style.borderColor="black";
-        }
     }
+}else{
+        document.getElementById("email_error").style.visibility="hidden";
+            document.getElementById("email").style.borderColor="black";
+    return true;       
+}
 }
