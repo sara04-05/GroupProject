@@ -77,13 +77,6 @@ input[type="email"]::placeholder {
     color: #888;
 }
 
-#email_error {
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-    color:red;
-}
 
 button {
     padding: 0.75rem;

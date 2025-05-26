@@ -14,14 +14,17 @@
                 <p class="Sign">Log in to Melodix</p>
                 <p class="detail">Please enter your details</p>
 
-                <form action="" class="forma">
+                <form class="forma" onsubmit="return validation()">
                     <label for="email">Email Address</label>
                     <input type="email" id="email" placeholder="your@email.com" required>
-                </form><br>
+                    <span id="email_error">Please enter a valid email</span>
 
-                <form action="" class="forma">
+                </form><br>
+                
+                <form class="forma" onsubmit="return validation()" id="password-container">
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="yourpassword" required>
+                    <span id="password_error">Please enter a valid password</span>
 
                     <button type="submit">Continue</button>
                 </form>
@@ -30,5 +33,7 @@
             <p>Don't have an account?  <a href="signup.html">Sign up to Melodix</a></p>
         </div>
     </section>
+
+    <script src="login.js"></script>
 </body>
 </html>

@@ -85,6 +85,23 @@ input[type="password"]::placeholder {
     color: #888;
 }
 
+#email_error{
+    visibility: hidden;
+    color:red;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#password_error{
+  visibility: hidden;
+    color:red;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+
 button {
     padding: 0.75rem;
     background-color: #1db954;
