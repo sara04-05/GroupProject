@@ -1,6 +1,6 @@
 function validation() {
  var email=document.getElementById('email').value;
-valid_email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+ valid_email_regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
  var password = document.getElementById('password').value;
  valid_password_regex= /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
